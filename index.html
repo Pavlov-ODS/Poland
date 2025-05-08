@@ -9,7 +9,7 @@
     <meta
       name="description"
       content="Помощь в получении A1 для работы в Польше">
-    <link rel="stylesheet" href="Dela_Gothic_One/DelaGothicOne.css" />
+    <link rel="stylesheet" href="Dela_Gothic_One/DelaGothicOne.css" >
     <link rel="stylesheet" href="style.css" >
   </head>
   <body>
@@ -136,8 +136,7 @@
                   display: inline-block;
                   margin-left: 8px;
                 "
-                onerror="this.style.display='none'"
-              />
+                onerror="this.style.display='none'">
             </h1>
             <p>Запишитесь на <a href="#consult">бесплатную консультацию</a></p>
             <a href="#consult" class="btn btn-main">Записаться</a>
@@ -301,8 +300,7 @@
             <img
               src="image/Этапы.webp"
               alt="Этапы сотрудничества"
-              onerror="this.alt='Ошибка загрузки изображения этапов'"
-            />
+              onerror="this.alt='Ошибка загрузки изображения этапов'">
           </div>
           <div class="algo-row algo-bottom">
             <div class="algo-step algo-step-2">
@@ -380,7 +378,8 @@
                 type="text"
                 name="company"
                 placeholder="Компания"
-                required>
+                required 
+                >
               <input type="email" name="email" placeholder="E-mail" required >
               <textarea
                 name="message"
@@ -388,7 +387,8 @@
                 required
               ></textarea>
               <label class="contact-checkbox">
-                <input type="checkbox" name="privacy" required >
+                <input type="checkbox" name="privacy" required 
+                  >
                 <span>
                   Я согласен на обработку персональных данных и принимаю
                   <a href="/privacy-policy.html" target="_blank"
